@@ -1,0 +1,25 @@
+<root>
+        <slot>
+                <name>filewriter</name>
+                <sink>
+                </sink>
+                <para>
+                    <pair>
+                        <key>fileName</key>
+                        <value>xxx.txt</value>
+                    </pair>
+                </para>
+        </slot>
+        <slot>
+                <name>tick</name>
+		<sink>
+			<name>filewriter</name>
+                </sink>
+                <para>
+                    <pair>
+                        <key>interval</key>
+                        <value>1</value>
+                    </pair>
+	    </para>
+    	</slot>
+</root>
